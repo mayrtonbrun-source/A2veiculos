@@ -34,19 +34,19 @@ export default function AboutPage() {
         <div className="fixed inset-0 bg-black/80 -z-10" />
 
         {/* Hero - seção principal de apresentação */}
-        <section className="relative w-full h-[70vh] md:h-[90vh] flex items-center justify-center overflow-hidden">
+        <section className="relative w-full py-20 md:py-28 flex items-center justify-center overflow-hidden">
 
           {/* CONTEÚDO */}
           <div className="relative z-10 text-center px-4">
 
             {/* Título principal da página */}
             <h1 className="font-heading font-bold text-3xl md:text-5xl text-white mb-4">
-              Sobre a <span className="text-accent">A2 Veículos</span>
+            Quem somos
             </h1>
 
             {/* Subtítulo explicando o negócio */}
             <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
-              Especializada na revenda de veículos seminovos em Teresina
+              A2 Veículos é especializada na revenda de veículos seminovos em Teresina.
             </p>
 
           </div>
@@ -58,10 +58,27 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 max-w-3xl text-center">
 
             {/* Descrição da empresa */}
-            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
-              A A2 Veículos e Seguros é especializada na revenda de veículos seminovos,
-              sempre priorizando transparência, segurança e conforto para nossos clientes.
-            </p>
+            <div className="space-y-5 text-white/90 text-base md:text-lg leading-relaxed">
+  <p>
+    Fundada com o propósito de oferecer veículos de qualidade com transparência e confiança, a A2 Veículos nasceu para transformar a experiência de compra de carros em algo simples, seguro e acessível.
+  </p>
+
+  <p>
+    Desde o início, nosso compromisso sempre foi ajudar cada cliente a realizar o sonho do carro próprio, oferecendo atendimento personalizado e as melhores oportunidades do mercado.
+  </p>
+
+  <p>
+    Trabalhamos com veículos cuidadosamente selecionados, com procedência garantida e revisados, além de condições facilitadas de pagamento e financiamento, buscando sempre a melhor solução para cada cliente.
+  </p>
+
+  <p>
+    Com atuação em Teresina, a A2 Veículos vem conquistando a confiança de seus clientes através de um atendimento sério, transparente e focado na satisfação.
+  </p>
+
+  <p className="font-semibold text-white">
+    Na A2 Veículos, mais do que vender carros, construímos confiança, credibilidade e relacionamentos duradouros.
+  </p>
+</div>
 
           </div>
         </section>

@@ -30,7 +30,7 @@ import { WHATSAPP_NUMBER } from '@/data/mockData';
 // Cada objeto representa um item do menu.
 const navLinks = [
   { label: 'Estoque', path: '/estoque' },
-  { label: 'Sobre', path: '/sobre' },
+  { label: 'Quem somos', path: '/sobre' },
 ];
 
 
